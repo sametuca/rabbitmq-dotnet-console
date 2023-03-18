@@ -9,6 +9,7 @@ using IModel channel = connection.CreateModel();
 channel.QueueDeclare("example-queue", true, false, false, null);
 
 EventingBasicConsumer consumer = new EventingBasicConsumer(channel);
+channel.BasicConsume(queue:"example-queue", autoAck:false, consumer:consumer);
 consumer.Received += (model, ea) =>
 {
     byte[] body = ea.Body.ToArray();
