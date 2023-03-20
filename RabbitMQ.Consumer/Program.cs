@@ -4,6 +4,7 @@ using RabbitMQ.Client.Events;
 
 ConnectionFactory factory = new ConnectionFactory();
 factory.Uri = new Uri("amqps://eqafabgk:VWWkNnuR6iuDu27BQyVoFB3NwWzRC0rV@chimpanzee.rmq.cloudamqp.com/eqafabgk");
+
 using IConnection connection = factory.CreateConnection();
 using IModel channel = connection.CreateModel();
 channel.QueueDeclare("example-queue", true, false, false, null);

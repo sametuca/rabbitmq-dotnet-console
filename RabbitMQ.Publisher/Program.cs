@@ -2,7 +2,7 @@
 using RabbitMQ.Client;
 
 //Bağlantı oluşturma
-ConnectionFactory factory = new ConnectionFactory();
+var factory = new ConnectionFactory();
 factory.Uri = new Uri("amqps://eqafabgk:VWWkNnuR6iuDu27BQyVoFB3NwWzRC0rV@chimpanzee.rmq.cloudamqp.com/eqafabgk");
 
 //Bağlantıyı aktifleştirme ve kanal açma
@@ -66,7 +66,6 @@ Console.ReadLine();
 //Console.ReadLine();
 
 //RabbitMQ ile birlikte gelen bir web arayüzü olan RabbitMQ Management Plugin ile kuyrukların durumunu görebiliriz. RabbitMQ Management Plugin’i kurmak için aşağıdaki komutu çalıştırabiliriz.
-    
-    //sudo rabbitmq-plugins enable rabbitmq_management
+//sudo rabbitmq-plugins enable rabbitmq_management
     
 
