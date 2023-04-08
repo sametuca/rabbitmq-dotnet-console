@@ -25,10 +25,11 @@ channel.QueueDeclare("example-queue", true, false, false, null);
  */
 EventingBasicConsumer consumer = new EventingBasicConsumer(channel);
 channel.BasicConsume(queue:"example-queue", autoAck:false, consumer:consumer);
-consumer.Received += (model, ea) =>
+consumer.Received += (sender, e) =>
 {
-    byte[] body = ea.Body.ToArray();
+    byte[] body = e.Body.ToArray();
     string message = Encoding.UTF8.GetString(body);
+    channel.BasicAck(deliveryTag:e.DeliveryTag, multiple:false);
     Console.WriteLine("Mesaj alındı: " + message);
 };
 
