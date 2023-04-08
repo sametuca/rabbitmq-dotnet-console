@@ -119,11 +119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sametuca/RiderProjects/RabbitMQ.Example/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
+      "projectUniqueName": "/Users/sametuca/RiderProjects/rabbitmq-dotnet-console/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
       "projectName": "RabbitMQ.Consumer",
-      "projectPath": "/Users/sametuca/RiderProjects/RabbitMQ.Example/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
+      "projectPath": "/Users/sametuca/RiderProjects/rabbitmq-dotnet-console/RabbitMQ.Consumer/RabbitMQ.Consumer.csproj",
       "packagesPath": "/Users/sametuca/.nuget/packages/",
-      "outputPath": "/Users/sametuca/RiderProjects/RabbitMQ.Example/RabbitMQ.Consumer/obj/",
+      "outputPath": "/Users/sametuca/RiderProjects/rabbitmq-dotnet-console/RabbitMQ.Consumer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sametuca/.nuget/NuGet/NuGet.Config"
@@ -132,6 +132,7 @@
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -171,7 +172,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

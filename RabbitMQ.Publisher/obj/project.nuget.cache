@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j5MzKtYl87+NPlc3OwR4ENOMG4PMurKYwsapIyyDOiVE/FYnOo16QrFnqE69H2fDnFJWgERTqYnOCXI7wil1ow==",
+  "dgSpecHash": "hAHe5M+FIzAQBcjHUPviFeR1/GuRvrWRMDI81M3S5yK/o84B/FSFu4UaX+VdQsl9/r5NrKbfRXyCdPkxQkrE5g==",
   "success": true,
-  "projectFilePath": "/Users/sametuca/RiderProjects/RabbitMQ.Example/RabbitMQ.Publisher/RabbitMQ.Publisher.csproj",
+  "projectFilePath": "/Users/sametuca/RiderProjects/rabbitmq-dotnet-console/RabbitMQ.Publisher/RabbitMQ.Publisher.csproj",
   "expectedPackageFiles": [
     "/Users/sametuca/.nuget/packages/rabbitmq.client/6.4.0/rabbitmq.client.6.4.0.nupkg.sha512",
     "/Users/sametuca/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
